@@ -1,11 +1,12 @@
-import { resolve } from 'path'
+import path from 'path'
 
 export default {
   port: 5000,
   open: false,
   // 必须以 / 开始
   alias: {
-    '/@/': resolve(__dirname, './src')
+    '/@/': path.resolve(__dirname, './src'),
+    '/@components/': path.resolve(__dirname, './src/components'),
   },
   proxy: {
     '/api': {

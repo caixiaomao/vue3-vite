@@ -8,8 +8,8 @@
     </a-row>
     <a-row>
       <a-button-group>
-        <a-button type="primary" @click="increment"> <LeftOutlined />增加</a-button>
-        <a-button type="primary" @click="reduce">减少<RightOutlined /> </a-button>
+        <a-button type="primary" @click="increment">增加</a-button>
+        <a-button type="primary" @click="reduce">减少</a-button>
       </a-button-group>
     </a-row>
   </div>

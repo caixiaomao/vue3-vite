@@ -7,7 +7,6 @@ import store from './store'
 // ant-design-vue
 import antd from 'ant-design-vue'
 import 'ant-design-vue/dist/antd.css'
-
 createApp(App)
   .use(router)
   .use(store)

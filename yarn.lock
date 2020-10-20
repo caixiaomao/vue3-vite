@@ -999,11 +999,6 @@ eslint-config-prettier@^6.13.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-standard@^14.1.1:
-  version "14.1.1"
-  resolved "https://registry.npm.taobao.org/eslint-config-standard/download/eslint-config-standard-14.1.1.tgz#830a8e44e7aef7de67464979ad06b406026c56ea"
-  integrity sha1-gwqOROeu995nRkl5rQa0BgJsVuo=
-
 eslint-plugin-prettier@^3.1.4:
   version "3.1.4"
   resolved "https://registry.npm.taobao.org/eslint-plugin-prettier/download/eslint-plugin-prettier-3.1.4.tgz#168ab43154e2ea57db992a2cd097c828171f75c2"
