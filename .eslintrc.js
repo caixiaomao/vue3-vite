@@ -9,6 +9,7 @@ module.exports = {
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
-    "vue/singleline-html-element-content-newline": "off"
+    "vue/singleline-html-element-content-newline": "off",
+    "vue/max-attributes-per-line": "off"
   },
 };
