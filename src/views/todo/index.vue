@@ -1,12 +1,14 @@
 <template>
   <div>
-    <a-button type="primary">todo</a-button>
+    <a-button type="primary">
+      todo
+    </a-button>
   </div>
 </template>
 
 <script>
   export default {
-  name: "todo"
+  name: "Todo"
 }
 </script>
 

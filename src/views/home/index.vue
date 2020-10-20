@@ -1,10 +1,12 @@
 <template>
-  <div>vue3&vite</div>
+  <div>
+    <a-button type="primary">vue3&vite</a-button>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "index"
+  name: "Index"
 }
 </script>
 
