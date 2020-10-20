@@ -3,10 +3,13 @@
 </template>
 
 <script>
-
+import { onMounted } from 'vue'
 export default {
   name: 'App',
-  components: {
+  setup () {
+    onMounted (() => {
+      console.log('App onMounted')
+    })
   }
 }
 </script>
