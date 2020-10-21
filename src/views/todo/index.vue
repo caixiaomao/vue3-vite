@@ -7,8 +7,18 @@
 </template>
 
 <script>
-  export default {
-  name: "Todo"
+import {reactive, computed} from 'vue'
+export default {
+  name: "Todo",
+  setup () {
+    const state = reactive({
+      todos: []
+    })
+
+    return {
+      state
+    }
+  }
 }
 </script>
 
