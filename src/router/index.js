@@ -10,6 +10,10 @@ export default createRouter({
     {
       path: '/todo',
       component: () => import('../views/todo/index.vue')
+    },
+    {
+      path: '/table',
+      component: () => import('../views/table/index.vue')
     }
   ]
 })
